@@ -44,6 +44,6 @@ const myEventHandler = function () {
 eventEmitter.on("scream", myEventHandler);
 
 //Fire the 'scream' event:
-eventEmitter.emit("scream");
+eventEmitter.emit("screaming");
 
 server.listen(PORT.port1);
